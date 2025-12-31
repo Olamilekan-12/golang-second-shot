@@ -8,7 +8,12 @@ import (
 )
 
 func main() {
-	message, err := greetings.Hello("Bello")
+	names := []string{
+		"Bello",
+		"Olamilekan",
+		"Olayinka",
+	}
+	message, err := greetings.Hellos(names)
 	if err != nil {
 		log.Fatal(err)
 	}
