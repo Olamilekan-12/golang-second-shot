@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Bello")
 	if err != nil {
 		log.Fatal(err)
 	}
